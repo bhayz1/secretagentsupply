@@ -1,1 +1,45 @@
+html {
+  font-size: 18px;
+}
 
+body {
+  background-color: black;
+}
+
+.main {
+  width: 960px;
+  color: white;
+  font-family: helvetica;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin: 0.66rem 1rem 0.66rem 0.5rem;
+
+}
+
+/*company name*/
+.sas {
+  margin: 0.66rem auto 0.66rem auto;
+}
+
+.banner {
+  background-image: url(./images/moto.jpeg);
+  height: 25rem;
+}
+
+.new {
+  margin-top: 9rem;
+  width: 20rem;
+}
+
+/*adding redline*/
