@@ -4,8 +4,10 @@ html {
 
 body {
   background-color: black;
+  justify-content: center;
 }
 
+/*main container*/
 .main {
   width: 960px;
   color: white;
@@ -17,10 +19,6 @@ body {
   display: flex;
 }
 
-.justify {
-  justify-content: center;
-}
-
 .logo img {
   height: 1.5rem;
   margin: 0.66rem 1rem 0.66rem 0.5rem;
@@ -29,17 +27,73 @@ body {
 
 /*company name*/
 .sas {
-  margin: 0.66rem auto 0.66rem auto;
+  margin: 0.66rem 0 0.66rem 0;
 }
 
+/*banner*/
 .banner {
   background-image: url(./images/moto.jpeg);
   height: 25rem;
 }
 
+/*banner container*/
 .new {
-  margin-top: 9rem;
   width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem 2rem 3rem;
+  margin-top: 9rem;
 }
 
-/*adding redline*/
+/*banner text 1*/
+.one {
+  font-size: 1rem;
+  display: block;
+}
+
+/*banner text 2*/
+.two {
+  font-size: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*nav container*/
+nav {
+  background-color: firebrick;
+  justify-content: space-around;
+}
+
+/*nav items*/
+nav span {
+  margin: 0.75rem auto 0.75rem auto;
+}
+
+/*products*/
+
+.box {
+  width: 30%;
+  border: 4px solid black;
+  margin: 3rem 0 3rem 0;
+  flex-direction: column;
+}
+
+.item {
+  justify-content: center;
+}
+
+.item img {
+  height: 9rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.white {
+  background-color: white;
+}
+
+.label {
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem 0 0.5rem 0;
+}
